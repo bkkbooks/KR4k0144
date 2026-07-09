@@ -1,0 +1,45 @@
+canonical_identifier: bkk:krp/KR4k0144/kf/v1
+canonical_location: https://kanripo.org/bkk/KR4k0144/kf/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR4k0144_000-kf.yaml, hash: 'sha256:730107254b21843b0baa977e0bb29f2031bab2b2ac0983d7cbdf22f41b2d385e'}
+  - {seq: 1, filename: KR4k0144_001-kf.yaml, hash: 'sha256:9f512c97c3e32b32bf1cdc219fe61be7a7b4f3ee14a56c2dfd2dbfdc70026cbf'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR4k0144_000-kf.markers.yaml, hash: 'sha256:f34181c9fb819722f6c8da8e74f2e48b7e57136b4ce14a4958f5ebd42a63a49c'}
+  - {seq: 1, role: markers, filename: assets/KR4k0144_001-kf.markers.yaml, hash: 'sha256:10f2dfb79c85ec8811aacbc5ff42e1c6438a6f27832942e7c5175cd7f2228db3'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR4k0144_kf_000-h.1
+    span:
+    - body
+    - 0
+    - 66082
+  label: ''
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR4k0144_kf_001-h.1
+    span:
+    - body
+    - 0
+    - 131780
+  label: 第十九回送遠行賦誦哀江南
+  type: section
+  level: 1
+metadata:
+  title: 花月痕
+  identifiers:
+    krp: KR4k0144
+  tags:
+    kr-categories: KR4k
+  source:
+    repository: tls-texts
+    path: data/tls/KR4k0144.xml
+  edition:
+    short: kf
+hash: sha256:bb548e7cacbd451f88931b8bf757e0f197ef397c1451deced88966697676e6b9
